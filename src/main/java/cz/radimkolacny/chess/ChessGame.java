@@ -5,9 +5,14 @@
  */
 package cz.radimkolacny.chess;
 
-import GUI.ChessJFrame;
-import Managers.GameManager;
-import Managers.FileManager;
+import cz.radimkolacny.chess.gamefield.CapturedFiguresBlack;
+import cz.radimkolacny.chess.gamefield.Player;
+import cz.radimkolacny.chess.gamefield.CapturedFiguresWhite;
+import cz.radimkolacny.chess.gamefield.CapturedFigures;
+import cz.radimkolacny.chess.gamefield.Board;
+import cz.radimkolacny.chess.forms.ChessJFrame;
+import cz.radimkolacny.chess.managers.GameManager;
+import cz.radimkolacny.chess.managers.FileManager;
 
 /**
  *

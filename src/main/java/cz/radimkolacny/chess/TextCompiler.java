@@ -5,6 +5,8 @@
  */
 package cz.radimkolacny.chess;
 
+import cz.radimkolacny.chess.gamefield.Player;
+
 /**
  *
  * @author radimkolacny

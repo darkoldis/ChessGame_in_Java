@@ -5,9 +5,9 @@
  */
 package cz.radimkolacny.chess;
 
-import GUI.NewGameJDialog;
-import GUI.PreviousGamesJDialog;
-import Managers.FileManager;
+import cz.radimkolacny.chess.forms.NewGameJDialog;
+import cz.radimkolacny.chess.forms.PreviousGamesJDialog;
+import cz.radimkolacny.chess.managers.FileManager;
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Image;
@@ -205,6 +205,7 @@ public class MainMenuJFrame extends javax.swing.JFrame {
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
             java.util.logging.Logger.getLogger(MainMenuJFrame.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */
